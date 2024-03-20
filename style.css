@@ -1,18 +1,43 @@
 body {
   font: "Roboto", sans-serif;
   background-color: #f7f6bb;
-  color: #114232;
+  margin: 7px;
+  padding: 0;
 }
+
 header {
   background-color: #114232;
   color: #fcdc2a;
   padding: 20px;
-  text-align: center;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Align items to the right */
 }
+
+.image-container {
+  margin-right: 20px; /* Add spacing between image and text */
+  order: 2;
+}
+
 .image-container img {
-  width: 50%; /* Responsive image width */
+  width: 80px; /* Responsive image width */
   border-radius: 50%; /* Rounded corners */
-  display: block;
-  margin: 20px auto;
-  
+  margin-left: 20px; /* Add spacing between image and text */
+}
+
+h1 {
+  margin: 0; /* Remove default margin */
+}
+
+h2 {
+  color: #114232; /* Heading color */
+}
+
+.hobbies {
+  list-style: none;
+}
+
+.hobbies li img {
+  width: 20px;
+  margin-right: 10px;
 }
